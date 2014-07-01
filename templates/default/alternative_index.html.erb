@@ -1,0 +1,7 @@
+# This is an alternative template to demonstrate
+# override a template source in a wrapper cookbook
+
+server.document-root = "<%= @document_root %>"
+server.port = <%= @port %>
+index-file.names = ( "home.html" )
+mimetype.assign = ( ".html" => "text/html" )
